@@ -1,0 +1,55 @@
+ Sprint 1 Goals / Backlog
+Sprint Goal:
+
+Establish the foundation of the FocusFlow application by creating initial UI wireframes, setting up project structure, and starting basic components for navigation and task display.
+
+Sprint Backlog Items:
+
+Create high-fidelity wireframes for all primary screens (Dashboard, Tasks, Schedule, Timer, Stats, Settings).
+
+Design app structure in React (or chosen framework).
+
+Build core navigation (tabs or navbar).
+
+Implement placeholder components for Dashboard, Task List, Schedule, and Timer screens.
+
+Set up repository structure, environment, and dependencies.
+
+Document initial ER diagram and product workflow (completed earlier).
+
+ Sprint 1 Retrospective
+1. What went well this sprint?
+
+The wireframing process went very well, and it helped clarify the full layout of FocusFlow before any coding started. Having a visual structure made it easier to break down features into manageable components. I also successfully organized the project structure and established a clear direction for how the UI and navigation will function. Overall, planning and design flowed smoothly, and it gave me a strong sense of how the final product will look.
+
+2. What did not go well this sprint?
+
+One challenge was deciding which features to prioritize first. FocusFlow includes multiple interconnected screens, and it took time to determine which components needed to be built during Sprint 1 versus future sprints. Additionally, setting up the environment and selecting the right libraries took longer than expected because I wanted to ensure future scalability.
+
+3. Did you complete the tasks you planned to complete?
+
+Most of the planned tasks were completed. The wireframes were fully created, the ER diagram was finalized, and the initial component structure for the app was started. A few UI elements and transitions still need refinement, but the overall foundation was established.
+
+4. Did you experience any unforeseen technical issues that prevented your progress?
+
+Yes. I encountered some layout alignment issues when experimenting with different UI libraries and preview tools. Some components did not render consistently, which required adjustments and experimentation with layout styling. These issues slowed progress slightly but did not block the sprint entirely.
+
+5. Do you feel you are on track to complete your project? If no, what will you change?
+
+Yes, I feel on track. The main structure is in place, and I now have a clear roadmap for development. The next step is to focus on coding the functional parts of the app such as the task manager, focus timer logic, and schedule block system. To stay aligned, I plan to break tasks into smaller increments and set more frequent internal checkpoints.
+
+6. What are the goals for the upcoming sprint?
+
+Sprint 2 Goals:
+
+Implement functional Task List with CRUD operations
+
+Build functional Focus Timer (start, pause, session logging)
+
+Implement ScheduleBlock creation and display
+
+Begin user data model integration (even if mock data)
+
+Polish UI transitions and navigation
+
+Expand GitHub repo with updated documentation and screenshots
