@@ -1,0 +1,54 @@
+Sprint 2 Goals / Backlog
+Sprint 2 Overall Goal
+
+Move FocusFlow from mostly design and structure into a partially functional prototype by implementing core features: task management, a working focus timer, and basic schedule blocks using either mock or simple in-memory data.
+
+Sprint 2 Backlog Items
+
+Implement a Task List with the ability to create, view, and mark tasks as completed.
+
+Build a Focus Timer screen with start/pause/reset functionality and a visible countdown.
+
+Add ScheduleBlock UI elements to display planned study or activity blocks for the week.
+
+Connect the main navigation so Dashboard, Tasks, Timer, and Schedule screens are fully reachable.
+
+Use mock / temporary data models that match the ER diagram to prepare for persistence later.
+
+Update documentation in the repo (README and comments) to reflect new functionality.
+
+Sprint 2 Retrospective
+1. What went well this sprint?
+
+This sprint was productive in terms of turning designs into something interactive. The Task List now feels more “real” because tasks can be added and updated instead of just being static placeholders. The focus timer is also working at a basic level, which makes it easier to visualize how a student would actually use FocusFlow during study sessions. Navigation between screens is smoother, and the app is starting to feel like a cohesive product rather than separate pieces.
+
+2. What did not go well this sprint?
+
+Time estimation was still a challenge. Some features, like integrating the timer state with tasks or sessions, took longer than expected. Styling and layout tweaks also consumed more time than planned, especially trying to keep the UI consistent across different screens. I also noticed that context-switching between UI work and logic (like timer handling) slowed me down.
+
+3. Did you complete the tasks you planned to complete?
+
+Most of the planned goals were completed, but not all at the level of polish I originally imagined. The Task List, focus timer, and basic schedule blocks are functional in a simple way, and the navigation is largely in place. However, more advanced behaviors—like saving data across sessions or deeper analytics in the stats screen—were not finished in this sprint and will need to be pushed into the next one.
+
+4. Did you experience any unforeseen technical issues that prevented your progress? Please describe them.
+
+Yes. I ran into some issues with managing state between components, especially around the timer and how it interacts with selected tasks. In some cases, refreshing or navigating away from certain views caused the timer or task state to reset in ways I didn’t intend. There were also small layout bugs where elements didn’t line up correctly on different screen sizes, which required troubleshooting CSS and layout structure. While none of these issues completely blocked progress, they did slow things down and forced me to refactor parts of the code.
+
+5. Do you feel you are on-track to complete your project? If no, how will you adjust?
+
+Overall, I still feel on track to complete the project, but it’s clear that I need to be more intentional about scope. Instead of trying to partially touch every feature at once, I plan to focus on making a few core flows feel solid end-to-end—such as “create task → plan a session → run timer → see progress.” This will help avoid spreading effort too thin and will make the app more demo-ready, even if some secondary features remain basic for now.
+
+6. What are the goals for the upcoming sprint?
+Sprint 3 Goals (Next Sprint):
+
+Add persistent storage for tasks, sessions, and schedule blocks (even if it’s simple JSON, local storage, or a basic backend).
+
+Improve the Stats/Progress screen so it reflects real data from completed sessions.
+
+Refine the UI and UX for the Focus Timer, including better transitions and clearer session feedback.
+
+Clean up navigation and routing, ensuring there are no dead-ends or confusing flows for users.
+
+Write clearer documentation in the repo (setup instructions, feature list, and known issues).
+
+If time allows, start basic user preferences, such as default session length or notification preferences.
