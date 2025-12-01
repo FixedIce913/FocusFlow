@@ -1,0 +1,54 @@
+Sprint 3 Goals / Backlog
+Overall Sprint 3 Goal:
+
+Strengthen the core functionality of FocusFlow by improving user interaction, refining UI consistency, and enhancing underlying logic for tasks, sessions, and scheduling. The focus this sprint was moving from a basic prototype toward a more polished, user-ready experience.
+
+Sprint 3 Backlog Items:
+
+Improve the Focus Timer functionality (pause/resume, reset, and clearer visual feedback).
+
+Add visual polish to the UI across core screens (Dashboard, Tasks, Timer, Schedule).
+
+Create a more structured mock data layer so sessions and tasks behave predictably.
+
+Implement deeper task status updates and visual progress indicators.
+
+Refine navigation flow to remove dead-ends or confusing transitions.
+
+Prep codebase for next sprint’s work on persistence or backend logic.
+
+Sprint 3 Retrospective
+1. What went well this sprint?
+
+This sprint was successful in terms of improving the usability and appearance of the application. The UI now feels more cohesive, and the screens transition more naturally. The timer system is also more intuitive, thanks to clearer controls and better state handling. Breaking the work into smaller pieces helped me stay more focused and allowed for steady progress. I also feel that I’ve developed a stronger workflow for iterating on both design and code more efficiently.
+
+2. What did not go well this sprint?
+
+One challenge this sprint was balancing refinement with adding new features. It’s easy to get stuck tweaking design details instead of pushing the project forward. I also underestimated how long it would take to revise the navigation flow without introducing new bugs. A few UI components had to be rewritten more than once because their behavior became unpredictable as complexity grew. This slowed down progress and created some frustration.
+
+3. Did you complete the tasks you planned to complete?
+
+I completed most of the major goals for the sprint. The timer improvements, navigation refinements, and several UI enhancements were finished. However, some advanced behaviors—like automatic session tracking or user-customizable timer intervals—were not completed and will need to be carried over to Sprint 4. Despite this, the overall stability and feel of the app improved significantly.
+
+4. Did you experience any unforeseen technical issues that prevented your progress?
+
+Yes. A major issue was dealing with component re-rendering, especially when updating timer state. In some cases, the timer would reset unexpectedly or lose state between screen transitions. This required more debugging than expected and forced me to reorganize how the timer logic is stored. I also ran into alignment problems with certain UI elements, which led to additional layout adjustments.
+
+5. Do you feel you are on-track to complete your project? If no, what changes will you make?
+
+Yes, I feel on track, but I recognize that future sprints will require a more focused approach to avoid over-refining features. To stay on track, I plan to prioritize core functionality first—such as persistence for tasks and sessions—before spending additional time on aesthetic improvements. This will ensure that the product is functionally complete even if some UI enhancements come later.
+
+6. What are the goals for the upcoming sprint?
+Sprint 4 Goals (Next Sprint):
+
+Add real data persistence using local storage or a lightweight backend.
+
+Improve the Stats screen to reflect actual focus sessions and task completion.
+
+Implement session history tracking.
+
+Add settings options for customizing session length and break duration.
+
+Improve performance and reduce unnecessary re-renders.
+
+Finalize UI consistency across all screens in preparation for final presentation.
