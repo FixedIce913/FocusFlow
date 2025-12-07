@@ -1,0 +1,56 @@
+ Sprint 4 Goals / Backlog
+
+This sprint’s focus was refinement, stability, and smoothing out the user experience. Since this is the final sprint of the course, the backlog was smaller but more intentional about improving the consistency and reliability of FocusFlow.
+
+Sprint 4 Backlog Items:
+
+Polish UI layouts across all screens (Dashboard, Tasks, Timer, Schedule, Stats).
+
+Improve session logic to reduce timer resets and maintain state more consistently.
+
+Add clearer visual hierarchy to navigation to guide user flow.
+
+Implement additional mock data to better simulate realistic usage.
+
+Clean up code structure, remove unused components, and improve readability.
+
+Prepare repository for final evaluation with updated documentation and screenshots.
+
+ Sprint 4 Retrospective
+1. What went well this sprint?
+
+This sprint was successful in terms of refining the user experience and addressing issues that appeared during earlier development. The interface now looks more cohesive, and the navigation feels smoother. One of the biggest improvements was stabilizing the timer logic; the app now behaves more predictably when switching between screens. I also felt more comfortable adjusting UI layouts quickly, as I now have a clearer understanding of the project’s structure. Overall, this sprint felt like a strong polishing phase, where the app began to resemble a complete, usable product.
+
+2. What did not go well this sprint?
+
+The biggest challenge was balancing cleanup tasks with new improvements. Even though this sprint was focused on refinement, it still took longer than expected to reorganize components and update repetitive or messy code from earlier sprints. I also found it difficult to decide which UI improvements were essential versus nice-to-have, especially since the visual side of an app can always be improved further. This created some time pressure and required making decisions about what could realistically be completed in the sprint.
+
+3. Did you complete the tasks you planned to complete?
+
+Most of the planned tasks were completed. The UI is more consistent, the timer runs more reliably, and the navigation is now much easier for users to understand. However, some deeper refinements—such as complete session history or full customization options for timers—were not finished because they required more time than the sprint allowed. Still, the core goals of improvement and refinement were achieved.
+
+4. Did you experience any unforeseen technical issues that prevented your progress? Please describe them.
+
+Yes. While refining the UI, I encountered unexpected behavior where components re-rendered in ways that disrupted the timer’s internal state. This required reorganizing the component structure so that session state lived higher in the hierarchy. There were also small CSS inconsistencies that appeared only on certain screen sizes, forcing me to adjust layout rules multiple times. None of these blocked progress, but they did create delays and required more debugging and refactoring than anticipated.
+
+5. Do you feel you are on-track to complete your project? If no, what changes will you make?
+
+Yes, I feel on-track, especially considering this is the final sprint for the course. The project is in a functional state, and the core features—tasks, timer, schedule, and dashboard—are all represented and working at a basic level. If I were to continue development after the course, I would shift toward organizing the codebase for scalability, adding data persistence, and improving long-term usability. For now, the project is in a solid enough state to satisfy course requirements.
+
+6. What are the goals for the upcoming sprint?
+
+Since this is the final sprint for the course, these goals represent a hypothetical Sprint 5.
+
+Hypothetical Sprint 5 Goals (If the project continued):
+
+Implement real data persistence using local storage or a lightweight backend.
+
+Add full session history and advanced analytics to the Stats screen.
+
+Allow users to customize session lengths, break times, and study schedules.
+
+Improve accessibility features (contrast options, font resizing, simplified view modes).
+
+Optimize performance, reduce unnecessary re-renders, and increase overall app responsiveness.
+
+Begin preparing the project for a user study or small-scale pilot test.
